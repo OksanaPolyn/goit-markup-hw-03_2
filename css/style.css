@@ -16,24 +16,37 @@ li {
 
 ul {
     padding-inline-start: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-p {
-    margin: 0 auto;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+/*h1 h2 h3 h4 h5 h6 p {
+margin: 0px;
+padding: 0px;}*/
+    
 .body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    font-weight: 400;
     color: var(--main-title-color);
     background-color: var(--main-btn-color);
- /*margin: 0px;*/ 
-    margin: 0 auto; /*НЕ ЗНАЮ НАДО ЛИ*/
+    /*margin: 0px;
+    margin: 0 auto; 
     padding-left: 15px;
     padding-right: 15px;
+    font-weight: 400;*/
  }
 
 .header{
@@ -50,8 +63,8 @@ a {
     font-size: 26px;
     line-height: 1.19; 
     color: var(--accent-color);
-    padding-right: 93px;
-    /*padding-top: 60px;*/
+    margin-right: 93px;
+    
 }
 .logo-two {
     color: black;
@@ -65,7 +78,8 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    list-style: none;
+    margin: 0px;
+   /* list-style: none;*/
     
 }
 .item{
@@ -117,8 +131,7 @@ a {
     margin-bottom: 30px;
     /*padding-left: 452px;
     padding-right: 452px;
-    margin: 0px;
-   */
+    margin: 0px;*/
 }
 .hero-btn {
     background: #2196f3;
@@ -129,15 +142,15 @@ a {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: block;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     width: 200px;
     height: 50px;
     color: var(--two-title-color);
-    margin: auto;
+    /*margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;*/
 }
 .btn-item{
     /*width: 200px;*/
@@ -173,54 +186,47 @@ padding-right: 8px;}
     line-height: 1.14;
     letter-spacing: 0.03em;
     color:var(--main-title-color);  
-    margin: 0 auto;
     margin-bottom: 10px;
-   /* margin: 0px;
-    margin-bottom: 10px;*/
+   /* margin: 0 auto;*/
 }
 .type-text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-text-color);
-    margin: 0px;
+   /* margin: 0px;*/
+    width: 270px;
 }
 .task,  .comand {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--main-title-color);
-    margin: 0px;
-    /*text-align: center;*/
+    /*margin: 0px;
+    text-align: center;*/
 }
 .back {
     background-color: var(--btn-comand);
 }
 .comand-list{
-    margin: 0px;
     font-size: 16px;
     line-height: 1.18; 
     /*text-align: center;*/
 }    
 .comand-name {
     font-weight: 500;
-    /*font-size: 16px;
-    line-height: 1.18;*/
+    font-size: 16px;
+    line-height: 1.18;
     color: var(--main-title-color);
-    margin: 0px;
     margin-bottom: 10px;
     text-align: center;
+    /*margin: 0px;*/
 }
 .comand-position {
-    /*font-size: 16px;
+        color: var(--primary-text-color);
+    margin-bottom: 16px;
+    /*text-align: center;
+    font-size: 16px;
     line-height: 1.18;*/
-    color: var(--primary-text-color);
-    margin: 0px;
-    margin-bottom: 30px;
-    /*text-align: center;*/
-}
-.non-decor{
-    list-style: none; /* del список*/
-    margin: 0px;
 }
 
 .cont-link:hover ,
@@ -235,7 +241,7 @@ padding-right: 8px;}
     font-size: 16px;
     line-height: 1.87;
     color: var(--primary-text-color);
-    margin: 0px;
+    /*margin: 0px;*/
 }
 .name-work{
     font-weight: 700;
@@ -243,7 +249,7 @@ padding-right: 8px;}
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-title-color);
-    margin: 0px;
+    /*margin: 0px;*/
     margin-bottom: 4px;
 }
 .name-button{
@@ -261,6 +267,7 @@ padding-right: 8px;}
 background-color: var(--accent-color);
 color:var(--two-title-color);
 }
+
 
 .logo-footer span {
     color:var(--main-title-color);
@@ -291,6 +298,7 @@ color:var(--two-title-color);
     font-size: 14px;
     line-height: 1.71;
     padding: 0px;
+    margin: 0px;
     text-decoration: none;
 }
 .footer-link {
@@ -307,7 +315,7 @@ color:var(--two-title-color);
 .cont-add{
     color:var(--foot-cont);
     margin: 0px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 .container{
     width: 1200px;
@@ -359,9 +367,9 @@ ul {
     padding-bottom: 94px;
 }
 .card-set{
-    padding: 0;
+    /*padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: none;*/
     display: flex;
 }
 .item-type:not(:last-child) {
@@ -379,7 +387,7 @@ ul {
 }
 .about-img {
     display: flex;
-    margin: 0;
+    /*margin: 0;*/
     padding-inline-start: 0;
 }
 .list-img:not(:last-child) {
@@ -401,7 +409,7 @@ ul {
 }
 .comand-list {
     display: flex;
-    margin: 0;
+    /*margin: 0;*/
     padding-inline-start: 0px;
 }
 
@@ -417,14 +425,14 @@ ul {
     padding-bottom: 30px;
 }
 .team-img{
-    background:var(--two-title-color)
+    background:var(--two-title-color);
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
-    border: 1px solid #c5c5c5;
-    border-top: 0px;
-    list-style-type: none;
     text-align: center;
+     /*border: 1px solid #c5c5c5;
+    border-top: 0px;*/
 }
+
 .foot-one{
     margin-top: 20px;}
 
@@ -436,8 +444,8 @@ ul {
 .portfolio{
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0px;
+    /*margin: 0;
+    padding: 0px;*/
     padding-inline-start: 0;
     margin-right:-30px;
     margin-bottom:-30px;
@@ -463,4 +471,20 @@ ul {
 }
 .text-div{
     padding: 20px 24px;
+}
+.portfolio-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--main-title-color);
+    cursor: pointer;
+    background-color: var(--btn-comand);
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: none;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+background-color: var(--accent-color);
+color:var(--two-title-color);
 }
