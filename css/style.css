@@ -15,7 +15,7 @@ li {
 }
 
 ul {
-    padding-inline-start: 0;
+   /* padding-inline-start: 0;*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -52,6 +52,8 @@ padding: 0px;}*/
 .header{
     background: var(--main-btn-color);
     list-style-type: none;
+    border-bottom: 1px solid #ECECEC;
+    
 }
 a {
     text-decoration: none;
@@ -74,13 +76,20 @@ a {
 }
 
 .list{
+    /*font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;*/
+    margin: 0px;
+   /* list-style: none;*/
+    
+}
+.list-cont{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
     margin: 0px;
-   /* list-style: none;*/
-    
 }
 .item{
     color:var(--main-title-color);
@@ -137,6 +146,7 @@ a {
     background: #2196f3;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 4px;
+    border: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -171,9 +181,7 @@ padding-right: 8px;}
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 0;
     margin-bottom: 50px;
-    padding: 0px;
 } 
 
 .cursor:hover
@@ -207,26 +215,28 @@ padding-right: 8px;}
 .back {
     background-color: var(--btn-comand);
 }
-.comand-list{
+
+/*.comand-list{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.18; 
-    /*text-align: center;*/
-}    
+    /*text-align: center;} */ 
+
 .comand-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.18; 
     color: var(--main-title-color);
     margin-bottom: 10px;
     text-align: center;
     /*margin: 0px;*/
 }
 .comand-position {
-        color: var(--primary-text-color);
-    margin-bottom: 16px;
-    /*text-align: center;
     font-size: 16px;
-    line-height: 1.18;*/
+    line-height: 1.18;
+    color: var(--primary-text-color);
 }
 
 .cont-link:hover ,
@@ -295,15 +305,12 @@ color:var(--two-title-color);
 
 }
 .foot{
-    font-size: 14px;
+    /*font-size: 14px;*/
     line-height: 1.71;
-    padding: 0px;
-    margin: 0px;
     text-decoration: none;
 }
 .footer-link {
     color: var(--two-title-color);
-    margin:0px ;
 }
 .logo-foot{
     font-family:'Raleway', sans-serif;
@@ -444,8 +451,6 @@ ul {
 .portfolio{
     display: flex;
     flex-wrap: wrap;
-    /*margin: 0;
-    padding: 0px;*/
     padding-inline-start: 0;
     margin-right:-30px;
     margin-bottom:-30px;
