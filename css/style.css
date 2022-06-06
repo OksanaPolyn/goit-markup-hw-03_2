@@ -15,7 +15,6 @@ li {
 }
 
 ul {
-   /* padding-inline-start: 0;*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -32,9 +31,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 0;
 }
 
-/*h1 h2 h3 h4 h5 h6 p {
-margin: 0px;
-padding: 0px;}*/
     
 .body {
     font-family: "Roboto", sans-serif;
@@ -42,11 +38,6 @@ padding: 0px;}*/
     font-size: 14px;
     color: var(--main-title-color);
     background-color: var(--main-btn-color);
-    /*margin: 0px;
-    margin: 0 auto; 
-    padding-left: 15px;
-    padding-right: 15px;
-    font-weight: 400;*/
  }
 
 .header{
@@ -76,10 +67,7 @@ a {
 }
 
 .list{
-    /*font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;*/
+    /*text-decoration: none;*/
     margin: 0px;
    /* list-style: none;*/
     
@@ -138,9 +126,6 @@ a {
     letter-spacing: 0.06em;
     color: var(--two-title-color);
     margin-bottom: 30px;
-    /*padding-left: 452px;
-    padding-right: 452px;
-    margin: 0px;*/
 }
 .hero-btn {
     background: #2196f3;
@@ -201,7 +186,6 @@ padding-right: 8px;}
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-text-color);
-   /* margin: 0px;*/
     width: 270px;
 }
 .task,  .comand {
@@ -209,20 +193,11 @@ padding-right: 8px;}
     font-size: 36px;
     line-height: 1.17;
     color: var(--main-title-color);
-    /*margin: 0px;
-    text-align: center;*/
+    /*text-align: center;*/
 }
 .back {
     background-color: var(--btn-comand);
 }
-
-/*.comand-list{
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-    line-height: 1.18; 
-    /*text-align: center;} */ 
 
 .comand-name {
     font-weight: 500;
@@ -445,7 +420,6 @@ ul {
 
 .foot-item:not(:last-child) {
     margin-bottom: 9px;}
-
 
 /* ---------------PORTFOLIO_____*/
 .portfolio{
